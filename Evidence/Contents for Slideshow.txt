@@ -1,12 +1,12 @@
 Story: Greenward: A Guide for New Garden Operators
 
 Part 1 — Arrival
-I arrived in Greenward from Kairova’s tech department to help Sana Vey and her new garden crew. The protected pods were still working, but outside, the forest had taken over the old roads and buildings. This caused the connection and systems to go dowm. The garden operators needed our guidance.
+You have arrived in Greenward from Kairova’s tech department to help Sana Vey and her new garden crew. The protected pods were still working, but outside, the forest had taken over the old roads and buildings. This caused the connection and systems to go dowm. The garden operators needed your guidance.
 Part 2 — The Old Instructions
-Sana showed me an old instruction sheet. It said to connect to the network and open the online garden system. But the network was down.
+Sana showed an old instruction sheet. It said to connect to the network and open the online garden system. But the network was down.
 “This guide is outdated,” Sana said.
 She was right. The crew needed instructions that worked even without a connection. 
 Part 3 — The Way Forward
-I saved a simple garden guide on their Windows computer and printed a backup copy. Now, when the network works, they can use the online system. When it doesn't, they can open the offline guide and keep working.
-Sana smiled. “Now we're ready.”
+You decide to create a simple illustrated guide that the crew can use directly on an ordinary Windows computer. It will not depend on the network, and it will focus only on the tools, paths, and procedures that still work in Greenward.
+By the time the guide is finished, the operators have something they can rely on—even when the network goes down and the forest closes in around them.
 And the new Greenward crew got back to growing.
