@@ -1,0 +1,149 @@
+﻿<Window x:Class="GreenwardGuide.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Greenward Field Guide"
+        Height="700"
+        Width="1000"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Background="#E8F0E3">
+
+        <!-- HEADER -->
+        <Border Background="#294936"
+                Height="80"
+                VerticalAlignment="Top">
+
+            <TextBlock Text="GREENWARD FIELD GUIDE"
+                       Foreground="White"
+                       FontSize="28"
+                       FontWeight="Bold"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+        </Border>
+
+
+        <!-- MAIN CONTENT -->
+        <Grid Margin="30,110,30,90">
+
+            <!-- HOME PAGE -->
+            <StackPanel x:Name="HomePage"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+
+                <TextBlock Text="Welcome to Greenward"
+                           FontSize="36"
+                           FontWeight="Bold"
+                           Foreground="#294936"
+                           HorizontalAlignment="Center"/>
+
+                <TextBlock Text="Offline illustrated guide for the garden crew"
+                           FontSize="18"
+                           Margin="0,10,0,30"
+                           HorizontalAlignment="Center"/>
+
+                <Button Content="START GUIDE"
+                        Width="250"
+                        Height="60"
+                        FontSize="20"
+                        Click="StartGuide_Click"/>
+            </StackPanel>
+
+
+            <!-- MAP PAGE -->
+            <StackPanel x:Name="MapPage"
+                        Visibility="Collapsed"
+                        HorizontalAlignment="Center">
+
+                <TextBlock Text="GREENWARD ROUTE"
+                           FontSize="30"
+                           FontWeight="Bold"
+                           Foreground="#294936"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <Border Background="White"
+                        BorderBrush="#294936"
+                        BorderThickness="2"
+                        Width="700"
+                        Height="400">
+
+                    <TextBlock Text="[ MAP / ILLUSTRATION GOES HERE ]"
+                               FontSize="22"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Border>
+
+                <TextBlock Text="Follow the marked route from the protected pods to the garden area."
+                           FontSize="17"
+                           Margin="0,15,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+
+
+            <!-- GUIDE PAGE -->
+            <StackPanel x:Name="GuidePage"
+                        Visibility="Collapsed"
+                        HorizontalAlignment="Center">
+
+                <TextBlock x:Name="GuideTitle"
+                           Text="Garden Guide"
+                           FontSize="30"
+                           FontWeight="Bold"
+                           Foreground="#294936"
+                           HorizontalAlignment="Center"/>
+
+                <Border Background="White"
+                        BorderBrush="#294936"
+                        BorderThickness="2"
+                        Width="600"
+                        Height="300"
+                        Margin="0,20">
+
+                    <TextBlock x:Name="GuideImage"
+                               Text="[ ILLUSTRATION ]"
+                               FontSize="25"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Border>
+
+                <TextBlock x:Name="GuideDescription"
+                           Text="Guide information goes here."
+                           FontSize="18"
+                           Width="650"
+                           TextWrapping="Wrap"
+                           TextAlignment="Center"/>
+            </StackPanel>
+
+        </Grid>
+
+
+        <!-- NAVIGATION BUTTONS -->
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Margin="0,0,0,25">
+
+            <Button x:Name="BackButton"
+                    Content="← BACK"
+                    Width="130"
+                    Height="45"
+                    Margin="5"
+                    Click="BackButton_Click"/>
+
+            <Button x:Name="NextButton"
+                    Content="NEXT →"
+                    Width="130"
+                    Height="45"
+                    Margin="5"
+                    Click="NextButton_Click"/>
+
+            <Button Content="HOME"
+                    Width="130"
+                    Height="45"
+                    Margin="5"
+                    Click="HomeButton_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
