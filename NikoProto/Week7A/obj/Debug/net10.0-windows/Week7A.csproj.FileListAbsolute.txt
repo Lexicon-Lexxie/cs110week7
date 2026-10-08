@@ -17,3 +17,27 @@ C:\Users\B217\source\repos\Week7A\obj\Debug\net10.0-windows\refint\Week7A.dll
 C:\Users\B217\source\repos\Week7A\obj\Debug\net10.0-windows\Week7A.pdb
 C:\Users\B217\source\repos\Week7A\obj\Debug\net10.0-windows\Week7A.genruntimeconfig.cache
 C:\Users\B217\source\repos\Week7A\obj\Debug\net10.0-windows\ref\Week7A.dll
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A_MarkupCompile.cache
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A.dll
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\refint\Week7A.dll
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A.pdb
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A.g.resources
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A.AssemblyInfoInputs.cache
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A.AssemblyInfo.cs
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A.csproj.CoreCompileInputs.cache
+C:\Users\Lexxie Ayala\Downloads\Week7A\bin\Debug\net10.0-windows\Week7A.exe
+C:\Users\Lexxie Ayala\Downloads\Week7A\bin\Debug\net10.0-windows\Week7A.deps.json
+C:\Users\Lexxie Ayala\Downloads\Week7A\bin\Debug\net10.0-windows\Week7A.runtimeconfig.json
+C:\Users\Lexxie Ayala\Downloads\Week7A\bin\Debug\net10.0-windows\Week7A.dll
+C:\Users\Lexxie Ayala\Downloads\Week7A\bin\Debug\net10.0-windows\Week7A.pdb
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A.genruntimeconfig.cache
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\ref\Week7A.dll
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A.csproj.Up2Date
+C:\Users\Lexxie Ayala\Downloads\Week7A\bin\Debug\net10.0-windows\Assets\1.png
+C:\Users\Lexxie Ayala\Downloads\Week7A\bin\Debug\net10.0-windows\Assets\2.png
+C:\Users\Lexxie Ayala\Downloads\Week7A\bin\Debug\net10.0-windows\Assets\3.png
+C:\Users\Lexxie Ayala\Downloads\Week7A\obj\Debug\net10.0-windows\Week7A_Content.g.cs

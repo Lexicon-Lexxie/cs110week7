@@ -30,7 +30,7 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center">
 
-                <TextBlock Text="Welcome to Greenward"
+                <TextBlock Text="Greenward: A Guide for New Garden Operators"
                            FontSize="36"
                            FontWeight="Bold"
                            Foreground="#294936"
@@ -54,7 +54,8 @@
                         Visibility="Collapsed"
                         HorizontalAlignment="Center">
 
-                <TextBlock Text="GREENWARD ROUTE"
+                <TextBlock x:Name="MapTitle"
+                           Text="Arrival"
                            FontSize="30"
                            FontWeight="Bold"
                            Foreground="#294936"
@@ -66,14 +67,14 @@
                         BorderThickness="2"
                         Width="700"
                         Height="400">
-
-                    <TextBlock Text="[ MAP / ILLUSTRATION GOES HERE ]"
-                               FontSize="22"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center"/>
+                    <Image x:Name="MapImage"
+                           Stretch="Uniform"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
                 </Border>
 
-                <TextBlock Text="Follow the marked route from the protected pods to the garden area."
+                <TextBlock x:Name="MapDescription"
+                           Text="Follow the marked route from the protected pods to the garden area."
                            FontSize="17"
                            Margin="0,15,0,0"
                            TextWrapping="Wrap"
@@ -100,11 +101,10 @@
                         Height="300"
                         Margin="0,20">
 
-                    <TextBlock x:Name="GuideImage"
-                               Text="[ ILLUSTRATION ]"
-                               FontSize="25"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center"/>
+                    <Image x:Name="GuideImageControl"
+                           Stretch="Uniform"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
                 </Border>
 
                 <TextBlock x:Name="GuideDescription"
@@ -113,6 +113,44 @@
                            Width="650"
                            TextWrapping="Wrap"
                            TextAlignment="Center"/>
+
+                <!-- SCREEN CAPTURE CONTROLS -->
+                <Separator Margin="0,18"/>
+                <TextBlock Text="SCREEN CAPTURE / Primary display"
+                           FontSize="16"
+                           Foreground="#294936"
+                           Margin="0,10,0,4"/>
+
+                <WrapPanel Margin="0,8">
+                    <Button Content="_Capture screen"
+                            Click="CaptureButton_Click"
+                            Padding="14,8"
+                            Margin="0,0,8,8"/>
+                    <Button x:Name="SaveCaptureButton"
+                            Content="_Save PNG"
+                            Click="SaveCaptureButton_Click"
+                            IsEnabled="False"
+                            Padding="14,8"
+                            Margin="0,0,8,8"/>
+                    <Button x:Name="ClearCaptureButton"
+                            Content="C_lear"
+                            Click="ClearCaptureButton_Click"
+                            IsEnabled="False"
+                            Padding="14,8"
+                            Margin="0,0,8,8"/>
+                </WrapPanel>
+
+                <Image x:Name="CapturePreview"
+                       Height="140"
+                       Stretch="Uniform"
+                       AutomationProperties.Name="Captured screen preview"
+                       Margin="0,6"/>
+
+                <TextBlock x:Name="StatusText"
+                           Text=""
+                           FontSize="13"
+                           Foreground="#294936"
+                           Margin="0,8,0,0"/>
             </StackPanel>
 
         </Grid>
